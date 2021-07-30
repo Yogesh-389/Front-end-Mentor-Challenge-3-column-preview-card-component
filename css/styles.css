@@ -1,0 +1,94 @@
+/***************************TAG SELECTORS**********************************/
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 60%;
+  margin-left: 35px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  text-align: center;
+  padding-right: 120px;
+  padding-top: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************CLASS SELECTORS***************************************/
+/***********************MIDDLE OUTER BOX*************************************/
+.Middle-outer-box{
+  height: 550px;
+  margin: 100px 200px;
+  background-color: hsl(0, 0%, 95%);
+
+}
+/**********************MIDDLE PART*******************************************/
+ .Middle-part{
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  width: 795px;
+  margin: 0 auto;
+  padding-top: 50px; /*to put this div in centre of outer div*/
+  padding-bottom: 50px;
+}
+
+.ICONS{
+  position: absolute;
+  top: 60px;
+    left: 40px;
+}
+
+/**************SEDANS DIV*****************/
+.SEDANS{
+  display: inline-block;
+  position: relative;
+  background-color: hsl(31, 77%, 52%);
+  width: 265px;
+  height: 450px;
+
+}
+.SUVS{
+  display: inline-block;
+  position: relative;
+  background-color: hsl(184, 100%, 22%);
+  width: 265px;
+  height: 450px;
+
+}
+.LUXURY{
+  display: inline-block;
+  position: relative;
+  background-color: hsl(179, 100%, 13%);
+  width: 265px;
+  height: 450px
+
+
+}
+
+
+
+
+
+/************************ATTRIBUTION PART*************************************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+margin: 100px auto;
+color: hsl(228, 45%, 44%);
+}
