@@ -1,0 +1,139 @@
+/***************************TAG SELECTORS**********************************/
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 60%;
+  margin-left: 35px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  text-align: center;
+  padding-right: 120px;
+  padding-top: 110px;
+}
+
+
+/***********************CLASS SELECTORS***************************************/
+/***********************MIDDLE OUTER BOX*************************************/
+.Middle-outer-box{
+  /*padding-top: 100px;*/
+  /*border: 1px solid transparent;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 720px;
+  width: 85%;
+  margin: 100px auto 0;
+  background-color: hsl(0, 0%, 95%);
+
+}
+/**********************MIDDLE PART*******************************************/
+ .Middle-part{
+  position: absolute;
+  top: 260px;
+ border-radius: 10px;
+ overflow: hidden;
+  display: flex;
+  width: 810px;
+  margin: 0;
+
+}
+
+.ICONS{
+  position: absolute;
+  top: 60px;
+    left: 40px;
+}
+
+/**************SEDANS DIV*****************/
+.SEDANS{
+  display: inline-block;
+  position: relative;
+  background-color: hsl(31, 77%, 52%);
+  width: 270px;
+  height: 450px;
+
+}
+.btn-sedan {
+ -webkit-border-radius: 28;
+ -moz-border-radius: 28;
+ border-radius: 28px;
+ font-family: 'Roboto', sans-serif;
+ color: hsl(31, 77%, 52%);
+ font-size: 16px;
+ background: hsl(0, 0%, 95%);
+ padding: 12px 25px 12px 25px;
+ position: absolute;
+ left: 35px;
+ bottom: 30px;
+ text-decoration: none;
+}
+
+
+
+
+
+
+
+/********************SUVS DIV*********************************/
+.SUVS{
+  display: inline-block;
+  position: relative;
+  background-color: hsl(184, 100%, 22%);
+  width: 270px;
+  height: 450px;
+
+}
+.btn-suv{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: hsl(184, 100%, 22%);
+  font-size: 16px;
+  background: hsl(0, 0%, 95%);
+  padding: 12px 25px 12px 25px;
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+  text-decoration: none;
+
+}
+
+/************************LUXURY DIV*******************************/
+.LUXURY{
+  display: inline-block;
+  position: relative;
+  background-color: hsl(179, 100%, 13%);
+  width: 270px;
+  height: 450px
+}
+.btn-luxury{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: hsl(179, 100%, 13%);
+  font-size: 16px;
+  background: hsl(0, 0%, 95%);
+  padding: 12px 25px 12px 25px;
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+  text-decoration: none;
+}
+
+
+
+
+
+/************************ATTRIBUTION PART*************************************/
+.attribution {
+  font-size: 15px;
+  text-align: center;
+margin: 50px auto;
+color: hsl(228, 45%, 44%);
+}
